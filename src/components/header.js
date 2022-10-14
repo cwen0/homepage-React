@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import PropTypes from 'prop-types'
+
 import PrimaryPinkButton from './primary-pink-button'
 import './header.css'
 
@@ -10,7 +12,11 @@ const Header = (props) => {
       <nav className="header-nav">
         <div className="header-container">
           <Link to="/" className="header-navlink">
-            PuckPuck Labs
+            <img
+              alt={props.image_alt}
+              src={props.image_src}
+              className="header-image"
+            />
           </Link>
           <div className="header-menu">
             <Link to="/" className="header-navlink1">
@@ -67,6 +73,16 @@ const Header = (props) => {
       </div>
     </div>
   )
+}
+
+Header.defaultProps = {
+  image_src: '/playground_assets/purpel-h-2-200h.png',
+  image_alt: 'image',
+}
+
+Header.propTypes = {
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
 }
 
 export default Header

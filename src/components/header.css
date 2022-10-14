@@ -41,10 +41,11 @@
   justify-content: space-between;
 }
 .header-navlink {
-  color: var(--dl-color-secondary-700);
-  font-weight: 600;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
+  display: contents;
+}
+.header-image {
+  width: 200px;
+  object-fit: cover;
   text-decoration: none;
 }
 .header-menu {

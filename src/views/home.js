@@ -14,10 +14,13 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>PuckPuck</title>
-        <meta property="og:title" content="PuckPuck" />
+        <title>PuckPuck: Make Your Services More Immune</title>
+        <meta
+          property="og:title"
+          content="PuckPuck: Make Your Services More Immune"
+        />
       </Helmet>
-      <Header></Header>
+      <Header image_src="/playground_assets/purpel-h-2-200h.png"></Header>
       <div className="home-hero">
         <div className="home-container01">
           <div className="home-card">

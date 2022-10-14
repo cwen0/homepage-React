@@ -305,6 +305,7 @@
 .home-text17 {
   color: var(--dl-color-gray-white);
   opacity: 0.8;
+  margin-bottom: var(--dl-space-space-doubleunit);
 }
 .home-logos {
   display: flex;

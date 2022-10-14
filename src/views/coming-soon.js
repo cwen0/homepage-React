@@ -11,8 +11,11 @@ const ComingSoon = (props) => {
   return (
     <div className="coming-soon-container">
       <Helmet>
-        <title>ComingSoon - PuckPuck</title>
-        <meta property="og:title" content="ComingSoon - PuckPuck" />
+        <title>ComingSoon - PuckPuck: Make Your Services More Immune</title>
+        <meta
+          property="og:title"
+          content="ComingSoon - PuckPuck: Make Your Services More Immune"
+        />
       </Helmet>
       <Header></Header>
       <div className="coming-soon-container1">
