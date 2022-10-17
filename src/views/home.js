@@ -20,7 +20,7 @@ const Home = (props) => {
           content="PuckPuck: Make Your Services More Immune"
         />
       </Helmet>
-      <Header image_src="/playground_assets/purpel-h-2-200h.png"></Header>
+      <Header image_src="/playground_assets/puckpucklabs-logo.png-200h.png"></Header>
       <div className="home-hero">
         <div className="home-container01">
           <div className="home-card">
@@ -244,7 +244,7 @@ const Home = (props) => {
           </div>
           <h2 className="home-text20">PuckPuck</h2>
           <h3 className="home-text21 headingTwo">
-            <span>Find Stability Issues and POC Verification</span>
+            <span>Find Stability Issues and PoC Verification</span>
             <br></br>
           </h3>
           <span className="home-text24">

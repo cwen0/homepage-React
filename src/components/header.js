@@ -76,7 +76,7 @@ const Header = (props) => {
 }
 
 Header.defaultProps = {
-  image_src: '/playground_assets/purpel-h-2-200h.png',
+  image_src: '/playground_assets/puckpucklabs-logo.png-200h.png',
   image_alt: 'image',
 }
 
