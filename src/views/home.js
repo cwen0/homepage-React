@@ -112,7 +112,14 @@ const Home = (props) => {
           </span>
           <br></br>
         </span>
-        <button className="home-button button">Chaos Mesh Docs</button>
+        <a
+          href="https://chaos-mesh.org/docs/"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="home-link2 button"
+        >
+          Chaos Mesh Docs
+        </a>
       </div>
       <div className="home-container04">
         <div className="home-container05">

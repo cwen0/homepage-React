@@ -139,14 +139,15 @@
   font-weight: 500;
   margin-bottom: 32px;
 }
-.home-button {
+.home-link2 {
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.home-button:hover {
+.home-link2:hover {
   transform: scale(1.02);
 }
 .home-container04 {
